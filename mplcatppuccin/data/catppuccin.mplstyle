@@ -1,0 +1,30 @@
+# Note: this explicitly only alters colors and should be combined with
+# other stylesheets if you want to edit other aspects, like linewidth,
+# margins, etc.
+
+# Making this in catppuccin mocha
+
+# Main colors: red, green, yellow, blue, pink, teal
+# Original matplotlib cycle is blue, orange, green, red, purple, brown, pink, grey, light green, light blue
+axes.prop_cycle: cycler('color', ['f38ba8', 'a6e3a1', 'f9e2af', '89b4fa', 'f5c2e7', '94e2d5'])
+
+image.cmap: cool
+
+# Font color: Text
+text.color: cdd6f4
+axes.labelcolor: cdd6f4
+xtick.labelcolor: cdd6f4
+ytick.labelcolor: cdd6f4
+
+# Background color: Base
+figure.facecolor: 1e1e2e
+axes.facecolor: 1e1e2e
+savefig.facecolor: 1e1e2e
+
+# Edge color: Surface 0
+axes.edgecolor: 313244
+xtick.color: 313244
+ytick.color: 313244
+
+# Grid color: Surface 0
+grid.color: 313244
