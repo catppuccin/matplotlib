@@ -18,7 +18,7 @@ def plot_palette(palette_name):
         ax.text(
             -0.01,
             0.5,
-            color_name,
+            f"{color_name} {palette[color_name]['hex']}",
             va="center",
             ha="right",
             fontsize=10,
@@ -28,5 +28,7 @@ def plot_palette(palette_name):
     # Turn off *all* ticks & spines, not just the ones with colormaps.
     for ax in axs:
         ax.set_axis_off()
+
+    fig.tight_layout()
 
     return fig
