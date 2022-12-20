@@ -74,12 +74,15 @@ def example_scatter():
 
 def example_boxplot():
     random.seed(0)
+    bars = 4
     points = 50
-    x = [random.random() for _ in range(points)]
-    y = [0.5 * random.random() for _ in range(points)]
+    x = [
+        [scale * random.random() for _ in range(points)]
+        for scale in [random.random() for _ in range(bars)]
+    ]
 
     fig = plt.figure()
-    plt.boxplot([x, y], patch_artist=True)
+    plt.boxplot(x, patch_artist=True)
     return fig
 
 
@@ -96,8 +99,10 @@ def example_bar():
 
 def example_patches():
     fig, ax = plt.subplots()
-    arrow_1 = mpatches.FancyArrowPatch((0.1, 0.5), (0.9, 0.8), mutation_scale=100)
-    arrow_2 = mpatches.FancyArrowPatch((0.5, 0.3), (1, 1.5), mutation_scale=100)
+    arrow_1 = mpatches.FancyArrowPatch((0, 1), (1, 0), mutation_scale=100)
+    arrow_2 = mpatches.FancyArrowPatch((0, 0), (1, 1), mutation_scale=100)
+    ax.set_xlim([-0.1, 1.1])
+    ax.set_ylim([-0.1, 1.1])
     ax.add_patch(arrow_1)
     ax.add_patch(arrow_2)
 
