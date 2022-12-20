@@ -1,8 +1,10 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from .palette import palettes
+from .colormaps import get_colormap_from_list
 import math
 import random
+import numpy as np
 
 # TODO fix random seeds inside all functions
 
@@ -109,10 +111,40 @@ def example_patches():
     return fig
 
 
+def example_imshow(palette_name):
+    data = np.random.randint(10, size=(30, 30))
+    fig, ax = plt.subplots()
+    im = ax.imshow(data)
+    ax.tick_params(
+        left=False, right=False, labelleft=False, labelbottom=False, bottom=False
+    )
+
+    fig.colorbar(im, ax=ax, ticks=[])
+
+    return fig
+
+
+def plot_examples(colormaps):
+    """
+    Helper function to plot data with associated colormap.
+    """
+    np.random.seed(19680801)
+    data = np.random.randn(30, 30)
+    n = len(colormaps)
+    fig, axs = plt.subplots(
+        1, n, figsize=(n * 2 + 2, 3), constrained_layout=True, squeeze=False
+    )
+    for [ax, cmap] in zip(axs.flat, colormaps):
+        psm = ax.pcolormesh(data, cmap=cmap, rasterized=True, vmin=-4, vmax=4)
+        fig.colorbar(psm, ax=ax)
+    plt.show()
+
+
 example_plots = {
     "plot": example_plot,
     "scatter": example_scatter,
     "boxplot": example_boxplot,
     "bar": example_bar,
     "patches": example_patches,
+    "imshow": example_imshow,
 }

@@ -17,10 +17,9 @@ for palette_name in palettes:
 
     # Plot examples
     for filename, plot_function in example_plots.items():
-        fig = plot_function()
+        if filename == "imshow":
+            fig = plot_function(palette_name)
+        else:
+            fig = plot_function()
         fig.savefig(palette_path / f"{filename}.png")
         plt.close()
-
-# plt.imshow
-# TODO https://matplotlib.org/stable/tutorials/colors/colormap-manipulation.html
-# Follow this to register multiple nice colormaps
