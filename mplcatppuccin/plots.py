@@ -4,6 +4,8 @@ from .palette import palettes
 import math
 import random
 
+# TODO fix random seeds inside all functions
+
 
 def plot_palette(palette_name):
     palette = palettes[palette_name]
@@ -57,6 +59,7 @@ def example_plot():
 
 
 def example_scatter():
+    random.seed(0)
     points = 50
     x = [random.random() for _ in range(points)]
     y_1 = [random.random() for _ in range(points)]
@@ -70,6 +73,7 @@ def example_scatter():
 
 
 def example_boxplot():
+    random.seed(0)
     points = 50
     x = [random.random() for _ in range(points)]
     y = [0.5 * random.random() for _ in range(points)]
@@ -80,6 +84,7 @@ def example_boxplot():
 
 
 def example_bar():
+    random.seed(0)
     bars = 10
     x = [0.5 + x for x in range(bars)]
     y = [random.random() for _ in range(bars)]
