@@ -16,8 +16,5 @@ mpl.style.core.update_nested_dict(mpl.style.library, catppuccin_stylesheets)
 
 # Register default colormaps
 for palette_name in ["latte", "frappe", "macchiato", "mocha"]:
-    # cmap = get_colormap_from_list(palette_name, ["peach", "base", "blue"])
-
-    # Default: single color
     cmap = get_colormap_from_list(palette_name, ["base", "blue"])
     mpl.colormaps.register(cmap=cmap, name=palette_name)
