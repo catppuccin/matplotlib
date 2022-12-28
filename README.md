@@ -1,21 +1,23 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://matplotlib.org/">Matplotlib</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/template?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/brambozz/matplotlib-catppuccin?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/brambozz/matplotlib-catppuccin?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/brambozz/matplotlib-catppuccin?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/preview.webp"/>
+	<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/boxplot.png"/>
 </p>
 
 ## Previews
+
+TODO: add catwalks
 
 <details>
 <summary>🌻 Latte</summary>
@@ -36,19 +38,32 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+1. `pip install mplcatppuccin`
+2. Import the module to register the stylesheets and colormaps
 
-## 🙋 FAQ (optional)
+```python
+import mplcatppuccin
+import matplotlib as mpl
+import matplotlib.pyplot as plt
 
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
+mpl.style.use("mocha")
+plt.plot([0,1,2,3], [1,2,3,4])
+plt.show()
+```
+
+3. Easy to mix with different stylesheets
+```python
+mpl.style.use(["ggplot", "mocha"])
+plt.plot([0,1,2,3], [1,2,3,4])
+plt.show()
+```
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [mplcyberpunk](https://github.com/dhaitz/mplcyberpunk)
+- [matplotlib-stylesheets](https://github.com/dhaitz/matplotlib-stylesheets)
+- [oldplotlib](https://github.com/ckinzthompson/oldplotlib/blob/main/oldplotlib.py)
+- [vapeplot](https://github.com/dantaki/vapeplot/blob/master/vapeplot/vapeplot.py)
 
 &nbsp;
 
@@ -61,5 +76,5 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+	<a href="https://github.com/brambozz/matplotlib-catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
