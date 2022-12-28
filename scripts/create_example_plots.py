@@ -7,13 +7,14 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 # Plot palettes
+dpi = 200
 for palette_name in palettes:
     mpl.style.use(palette_name)
     palette_path = Path("examples") / palette_name
 
     # Plot palette separately
     fig = plot_palette(palette_name)
-    fig.savefig(palette_path / "palette.png")
+    fig.savefig(palette_path / "palette.png", dpi=dpi)
 
     # Plot examples
     for filename, plot_function in example_plots.items():
@@ -21,5 +22,5 @@ for palette_name in palettes:
             fig = plot_function(palette_name)
         else:
             fig = plot_function()
-        fig.savefig(palette_path / f"{filename}.png")
+        fig.savefig(palette_path / f"{filename}.png", dpi=dpi)
         plt.close()
