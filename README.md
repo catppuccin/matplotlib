@@ -38,7 +38,7 @@
 </details>
 
 <details>
-<summary>Patchs</summary>
+<summary>Patches</summary>
 <img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/patches.png"/>
 </details>
 
