@@ -12,12 +12,16 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/boxplot.png"/>
+	<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/bar.png"/>
 </p>
 
 ## Previews
 
 TODO: add catwalks
+<details>
+<summary>Line plot</summary>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examles/catwalks/plot.png"/>
+</details>
 
 <details>
 <summary>🌻 Latte</summary>
@@ -51,7 +55,7 @@ plt.plot([0,1,2,3], [1,2,3,4])
 plt.show()
 ```
 
-3. Easy to mix with different stylesheets
+3. Mix it with different stylesheets!
 ```python
 mpl.style.use(["ggplot", "mocha"])
 plt.plot([0,1,2,3], [1,2,3,4])
