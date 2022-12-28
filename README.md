@@ -12,32 +12,39 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/bar.png"/>
+	<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/plot.png"/>
 </p>
 
 ## Previews
 
-TODO: add catwalks
 <details>
 <summary>Line plot</summary>
 <img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/plot.png"/>
 </details>
 
 <details>
-<summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/latte.webp"/>
+<summary>Bar plot</summary>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/bar.png"/>
 </details>
+
 <details>
-<summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/frappe.webp"/>
+<summary>Box plot</summary>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/boxplot.png"/>
 </details>
+
 <details>
-<summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/macchiato.webp"/>
+<summary>Scatter plot</summary>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/scatter.png"/>
 </details>
+
 <details>
-<summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/mocha.webp"/>
+<summary>Patchs</summary>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/patches.png"/>
+</details>
+
+<details>
+<summary>Colormap</summary>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/imshow.png"/>
 </details>
 
 ## Usage
