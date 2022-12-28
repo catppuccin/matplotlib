@@ -69,6 +69,26 @@ plt.plot([0,1,2,3], [1,2,3,4])
 plt.show()
 ```
 
+4. Load individual colors
+```python
+from mplcatppuccin.palette import load_color
+
+color = load_color("mocha", "peach")
+plt.plot([0,1,2,3], [1,2,3,4], color=color)
+plt.show()
+```
+
+5. Define custom colormaps
+```python
+from mplcatppuccin.colormaps import get_colormap_from_list
+import numpy as np
+
+cmap = get_colormap_from_list("mocha", ["red", "peach", "yellow", "green"])
+data = np.random.randint(10, size=(30, 30))
+plt.imshow(cmap, cmap=cmap)
+plt.show()
+```
+
 ## 💝 Thanks to
 
 - [mplcyberpunk](https://github.com/dhaitz/mplcyberpunk)
