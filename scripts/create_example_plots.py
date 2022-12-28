@@ -10,7 +10,7 @@ from pathlib import Path
 dpi = 200
 for palette_name in palettes:
     mpl.style.use(palette_name)
-    palette_path = Path("examples") / palette_name
+    palette_path = Path("assets") / palette_name
 
     # Plot palette separately
     fig = plot_palette(palette_name)

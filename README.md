@@ -12,39 +12,39 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/plot.png"/>
+	<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/assets/catwalks/plot.png"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>Line plot</summary>
-<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/plot.png"/>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/assets/catwalks/plot.png"/>
 </details>
 
 <details>
 <summary>Bar plot</summary>
-<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/bar.png"/>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/assets/catwalks/bar.png"/>
 </details>
 
 <details>
 <summary>Box plot</summary>
-<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/boxplot.png"/>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/assets/catwalks/boxplot.png"/>
 </details>
 
 <details>
 <summary>Scatter plot</summary>
-<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/scatter.png"/>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/assets/catwalks/scatter.png"/>
 </details>
 
 <details>
 <summary>Patches</summary>
-<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/patches.png"/>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/assets/catwalks/patches.png"/>
 </details>
 
 <details>
 <summary>Colormap</summary>
-<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/imshow.png"/>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/assets/catwalks/imshow.png"/>
 </details>
 
 ## Usage

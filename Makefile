@@ -17,10 +17,10 @@ all:
 
         # Make catwalks
 	python scripts/create_example_plots.py
-	catwalk examples/latte/plot.png examples/frappe/plot.png examples/macchiato/plot.png examples/mocha/plot.png -o examples/catwalks/plot.png
-	catwalk examples/latte/scatter.png examples/frappe/scatter.png examples/macchiato/scatter.png examples/mocha/scatter.png -o examples/catwalks/scatter.png
-	catwalk examples/latte/bar.png examples/frappe/bar.png examples/macchiato/bar.png examples/mocha/bar.png -o examples/catwalks/bar.png
-	catwalk examples/latte/patches.png examples/frappe/patches.png examples/macchiato/patches.png examples/mocha/patches.png -o examples/catwalks/patches.png
-	catwalk examples/latte/boxplot.png examples/frappe/boxplot.png examples/macchiato/boxplot.png examples/mocha/boxplot.png -o examples/catwalks/boxplot.png
-	catwalk examples/latte/palette.png examples/frappe/palette.png examples/macchiato/palette.png examples/mocha/palette.png -o examples/catwalks/palette.png
-	catwalk examples/latte/imshow.png examples/frappe/imshow.png examples/macchiato/imshow.png examples/mocha/imshow.png -o examples/catwalks/imshow.png
+	catwalk assets/latte/plot.png assets/frappe/plot.png assets/macchiato/plot.png assets/mocha/plot.png -o assets/catwalks/plot.png
+	catwalk assets/latte/scatter.png assets/frappe/scatter.png assets/macchiato/scatter.png assets/mocha/scatter.png -o assets/catwalks/scatter.png
+	catwalk assets/latte/bar.png assets/frappe/bar.png assets/macchiato/bar.png assets/mocha/bar.png -o assets/catwalks/bar.png
+	catwalk assets/latte/patches.png assets/frappe/patches.png assets/macchiato/patches.png assets/mocha/patches.png -o assets/catwalks/patches.png
+	catwalk assets/latte/boxplot.png assets/frappe/boxplot.png assets/macchiato/boxplot.png assets/mocha/boxplot.png -o assets/catwalks/boxplot.png
+	catwalk assets/latte/palette.png assets/frappe/palette.png assets/macchiato/palette.png assets/mocha/palette.png -o assets/catwalks/palette.png
+	catwalk assets/latte/imshow.png assets/frappe/imshow.png assets/macchiato/imshow.png assets/mocha/imshow.png -o assets/catwalks/imshow.png
