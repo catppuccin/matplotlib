@@ -20,7 +20,7 @@
 TODO: add catwalks
 <details>
 <summary>Line plot</summary>
-<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examles/catwalks/plot.png"/>
+<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/examples/catwalks/plot.png"/>
 </details>
 
 <details>
