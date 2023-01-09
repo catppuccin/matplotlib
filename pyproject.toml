@@ -1,0 +1,21 @@
+[project]
+name = "catppuccin-matplotlib"
+version = "0.2"
+description = "📊 Soothing pastel theme for matplotlib"
+readme = "README.md"
+authors = [{name = "Bram de Wilde", email = "contact@bramdewilde.com"}]
+dependencies = ["matplotlib"]
+license = {file = "LICENSE"}
+
+[project.urls]
+homepage = "https://github.com/brambozz/matplotlib-catppuccin"
+
+# [tool.setuptools]
+# packages = ["mplcatppuccin"]
+
+# [tool.setuptools.package-dir]
+# mplcattpuccin = "mplcatppuccin"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

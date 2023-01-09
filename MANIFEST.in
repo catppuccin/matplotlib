@@ -1,0 +1,2 @@
+include mplcatppuccin/data/*.mplstyle
+include mplcatppuccin/data/palettes.json
