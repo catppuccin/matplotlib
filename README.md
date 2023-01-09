@@ -49,7 +49,7 @@
 
 ## Usage
 
-1. `pip install mplcatppuccin`
+1. `pip install catppuccin-matplotlib`
 2. Import the module to register the stylesheets and colormaps
 
 ```python
