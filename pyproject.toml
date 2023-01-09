@@ -1,6 +1,6 @@
 [project]
 name = "catppuccin-matplotlib"
-version = "0.2"
+version = "0.4"
 description = "📊 Soothing pastel theme for matplotlib"
 readme = "README.md"
 authors = [{name = "Bram de Wilde", email = "contact@bramdewilde.com"}]

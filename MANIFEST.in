@@ -1,2 +1,2 @@
-include mplcatppuccin/data/*.mplstyle
-include mplcatppuccin/data/palettes.json
+include src/mplcatppuccin/data/*.mplstyle
+include src/mplcatppuccin/data/palettes.json
