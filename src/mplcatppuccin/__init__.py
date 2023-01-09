@@ -5,7 +5,7 @@ import matplotlib as mpl
 import pkg_resources
 from .colormaps import get_colormap_from_list
 
-__version__ = pkg_resources.require("mplcatppuccin")[0].version
+__version__ = pkg_resources.require("catppuccin-matplotlib")[0].version
 __author__ = "Bram de Wilde <contact@bramdewilde.com>"
 __all__ = []
 
