@@ -91,6 +91,7 @@ plt.show()
 
 ## 💝 Thanks to
 
+- [Bram de Wilde](https://github.com/brambozz)
 - [mplcyberpunk](https://github.com/dhaitz/mplcyberpunk)
 - [matplotlib-stylesheets](https://github.com/dhaitz/matplotlib-stylesheets)
 - [oldplotlib](https://github.com/ckinzthompson/oldplotlib/blob/main/oldplotlib.py)
