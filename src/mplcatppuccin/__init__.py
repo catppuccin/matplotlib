@@ -12,7 +12,6 @@ __author__ = "Bram de Wilde <contact@bramdewilde.com>"
 __all__ = []
 
 warning_message = """This package is deprecated, please upgrade to https://github.com/catppuccin/python (pip install catppuccin)
-Follow the README in the new repo to upgrade your code (minor edits)
 
 """
 
