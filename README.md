@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://matplotlib.org/">Matplotlib</a>
+	[DEPRECATED] Catppuccin for <a href="https://matplotlib.org/">Matplotlib</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -14,6 +14,13 @@
 <p align="center">
 	<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/assets/catwalks/plot.png"/>
 </p>
+
+## Deprecation Information
+
+The codebase was merged into the [catppuccin/python](https://github.com/catppuccin/python) repository!
+This package will no longer receive updates!
+
+The usage is almost identical. Yet, there are minor API changes. Follow the examples in the `python` repo to upgrade your code.
 
 ## Previews
 
