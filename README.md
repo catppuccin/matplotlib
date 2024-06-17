@@ -5,6 +5,13 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
+## Deprecation Information
+
+The codebase was merged into the [catppuccin/python](https://github.com/catppuccin/python) repository!
+This package will no longer receive updates!
+
+The usage is almost identical. Yet, there are minor API changes. Follow the examples in the `python` repo to upgrade your code.
+
 <p align="center">
 	<a href="https://github.com/brambozz/matplotlib-catppuccin/stargazers"><img src="https://img.shields.io/github/stars/brambozz/matplotlib-catppuccin?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
 	<a href="https://github.com/brambozz/matplotlib-catppuccin/issues"><img src="https://img.shields.io/github/issues/brambozz/matplotlib-catppuccin?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
@@ -14,13 +21,6 @@
 <p align="center">
 	<img src="https://raw.githubusercontent.com/brambozz/matplotlib-catppuccin/main/assets/catwalks/plot.png"/>
 </p>
-
-## Deprecation Information
-
-The codebase was merged into the [catppuccin/python](https://github.com/catppuccin/python) repository!
-This package will no longer receive updates!
-
-The usage is almost identical. Yet, there are minor API changes. Follow the examples in the `python` repo to upgrade your code.
 
 ## Previews
 
